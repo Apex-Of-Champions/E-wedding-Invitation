@@ -129,7 +129,7 @@
         }
 
         playWeddingMusic();
-      }, 4000);
+      }, 2000);
     });
 
     const weddingDate = new Date("2026-10-03T10:45:00+08:00").getTime();

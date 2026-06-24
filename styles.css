@@ -205,7 +205,7 @@
       background:
         radial-gradient(circle at 50% 35%, rgba(243, 215, 120, 0.14), transparent 28%),
         linear-gradient(145deg, rgba(2, 31, 26, 0.98), rgba(6, 24, 39, 0.98));
-      transition: opacity 0.7s ease, visibility 0.7s ease;
+      transition: opacity 0.45s ease, visibility 0.45s ease;
     }
 
     .opening-loader.is-hidden {
@@ -257,7 +257,7 @@
       background: linear-gradient(90deg, var(--gold), var(--soft-gold), var(--gold));
       transform: scaleX(0);
       transform-origin: left center;
-      animation: loaderProgress 4s ease forwards;
+      animation: loaderProgress 2s ease forwards;
     }
 
     @keyframes loaderProgress {
@@ -457,6 +457,7 @@
       letter-spacing: 2.4px;
       text-transform: uppercase;
       color: var(--ivory);
+      transform: translateX(24px);
       margin-bottom: 24px;
       text-shadow: 0 4px 16px rgba(0, 0, 0, 0.9);
     }
@@ -506,6 +507,14 @@
       color: var(--ivory);
       margin-bottom: 20px;
       text-shadow: 0 4px 16px rgba(0, 0, 0, 0.9);
+    }
+
+    .date.wedding-date-text,
+    .detail-main.wedding-date-text,
+    .footer-date.wedding-date-text {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 600;
+      letter-spacing: 1.4px;
     }
 
     .venue {
@@ -1222,6 +1231,16 @@
     .sponsor-columns li {
       break-inside: avoid;
       margin-bottom: 7px;
+    }
+
+    @media (min-width: 1001px) {
+      #entourage-secondary .entourage-group-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      #entourage-secondary .entourage-group-grid > div:last-child {
+        grid-column: 1 / -1;
+      }
     }
 
     /* ==============================
@@ -2436,6 +2455,7 @@
       .intro-text {
         font-size: 0.7rem;
         letter-spacing: 1.5px;
+        transform: translateX(10px);
       }
 
       .couple-name {
