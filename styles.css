@@ -556,11 +556,22 @@
       bottom: 34px;
       transform: translateX(-50%);
       z-index: 7;
-      color: var(--gold);
-      font-size: 2.35rem;
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
       text-decoration: none;
       animation: bounce 1.8s infinite;
-      text-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.85));
+    }
+
+    .scroll-down::before {
+      content: "";
+      width: 18px;
+      height: 18px;
+      border-right: 2px solid var(--gold);
+      border-bottom: 2px solid var(--gold);
+      transform: rotate(45deg);
     }
 
     @keyframes bounce {
