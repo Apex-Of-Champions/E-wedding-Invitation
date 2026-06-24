@@ -1,0 +1,827 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Kristelle and Sonny | Wedding Invitation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="is-loading">
+
+  <!-- OPENING LOADER -->
+  <div class="opening-loader" id="opening-loader" role="status" aria-live="polite">
+    <div class="loader-content">
+      <p class="loader-title">Kristelle and Sonny</p>
+      <p class="loader-copy">Opening our invitation</p>
+      <div class="loader-bar" aria-hidden="true"></div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="site-nav" aria-label="Wedding invitation navigation">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#home">K &amp; S</a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#details">Details</a>
+        <a href="#entourage">Entourage</a>
+        <a href="#dress-code">Dress Code</a>
+        <a href="#gift-guide">Gifts</a>
+        <a href="#snap-and-share">Hashtag</a>
+        <a href="#gallery">Gallery</a>
+        <a class="nav-rsvp-link" href="#rsvp">RSVP</a>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+    </div>
+  </nav>
+
+  <audio id="wedding-music" src="assets/Ben&amp;Ben - Godsent.mp3" preload="auto" autoplay loop></audio>
+
+  <div class="music-panel" aria-label="Music controls">
+    <button class="music-toggle" type="button" id="music-toggle" aria-label="Play music">Play</button>
+    <label class="music-volume-wrap" for="music-volume">
+      <span class="music-label">Music Volume</span>
+      <input class="music-volume" id="music-volume" type="range" min="0" max="100" value="50">
+    </label>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+
+    <div class="hero-content">
+
+      <p class="intro-text">
+        We joyfully invite you to share in <br>
+        our celebration of love and commitment
+      </p>
+
+      <h1 class="couple-name">Kristelle and Sonny</h1>
+
+      <div class="divider"></div>
+
+      <p class="date">03 October 2026 Â· 10:45 AM</p>
+
+      <p class="venue">
+        Ginazel Hotel Restaurant and <br>
+        Catering Services
+      </p>
+
+      <p class="hashtag">#KristelleFoundHerSonny</p>
+
+      <a href="#rsvp" class="btn">RSVP Now</a>
+
+    </div>
+
+    <a href="#welcome" class="scroll-down" aria-label="Scroll down">âŒ„</a>
+
+  </section>
+
+  <!-- SMALL WELCOME / INVITATION MESSAGE SECTION -->
+  <section class="welcome-section" id="welcome">
+
+    <div class="welcome-card">
+
+      <div class="welcome-icon" aria-hidden="true"><span>&#9825;</span></div>
+
+      <div>
+        <p class="welcome-small-title">Together with our families</p>
+
+        <p class="welcome-message">
+          We invite you to celebrate our wedding day
+          <span>as we begin our new journey as husband and wife.</span>
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- COUNTDOWN SECTION -->
+  <section class="countdown-section" id="countdown" aria-labelledby="countdown-title">
+
+    <div class="countdown-inner">
+
+      <h2 class="section-title" id="countdown-title">
+        <span>Counting Down to Forever</span>
+      </h2>
+
+      <div class="countdown-grid" aria-live="polite">
+
+        <div class="time-box">
+          <span class="time-number" id="days">000</span>
+          <span class="time-label">Days</span>
+        </div>
+
+        <div class="time-box">
+          <span class="time-number" id="hours">00</span>
+          <span class="time-label">Hours</span>
+        </div>
+
+        <div class="time-box">
+          <span class="time-number" id="minutes">00</span>
+          <span class="time-label">Minutes</span>
+        </div>
+
+        <div class="time-box">
+          <span class="time-number" id="seconds">00</span>
+          <span class="time-label">Seconds</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- WEDDING DETAILS SECTION -->
+  <section class="details-section" id="details" aria-labelledby="details-title">
+
+    <div class="details-inner">
+
+      <h2 class="section-title" id="details-title">
+        <span>Wedding Details</span>
+      </h2>
+
+      <div class="details-panel">
+
+        <div class="details-grid">
+
+          <article class="detail-card">
+            <div class="detail-icon" aria-hidden="true">D</div>
+            <div>
+              <p class="detail-kicker">Date</p>
+              <p class="detail-main">October 03, 2026</p>
+              <p class="detail-sub">Saturday</p>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-icon" aria-hidden="true">T</div>
+            <div>
+              <p class="detail-kicker">Time</p>
+              <p class="detail-main">10:45 AM</p>
+              <p class="detail-sub">Wedding ceremony</p>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="detail-icon" aria-hidden="true">V</div>
+            <div>
+              <p class="detail-kicker">Venue</p>
+              <p class="detail-main">Ginazel Hotel Restaurant and Catering Services</p>
+              <p class="detail-sub">Sitio Dapdap, Brgy. San Mateo, Rodriguez, Rizal</p>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="details-reminder">
+          Kindly arrive <span>at least 30 minutes early</span> so we can begin the ceremony on time and celebrate together without rush.
+        </p>
+
+        <a
+          class="btn location-btn"
+          href="https://www.google.com/maps/search/?api=1&amp;query=Ginazel%20Hotel%20Restaurant%20and%20Catering%20Services%20Sitio%20Dapdap%20Brgy.%20San%20Mateo%20Rodriguez%20Rizal"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open Location
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ENTOURAGE / NUPTIALS SECTION -->
+  <section class="entourage-section" id="entourage" aria-labelledby="entourage-title">
+
+    <div class="entourage-inner">
+
+      <h2 class="section-title" id="entourage-title">
+        <span>The Entourage</span>
+      </h2>
+
+      <p class="entourage-note">
+        With grateful hearts, we honor the family, sponsors, and loved ones who will stand with us on our wedding day.
+      </p>
+
+      <div class="entourage-accordion" data-accordion>
+
+        <article class="entourage-item">
+          <button class="entourage-trigger" type="button" aria-expanded="true" aria-controls="entourage-family" id="entourage-family-button">
+            <span>
+              <span class="entourage-trigger-title">Parents and Principal Sponsors</span>
+              <span class="entourage-trigger-subtitle">Family and ninongs / ninangs</span>
+            </span>
+            <span class="entourage-icon" aria-hidden="true">+</span>
+          </button>
+
+          <div class="entourage-panel is-open" id="entourage-family" role="region" aria-labelledby="entourage-family-button">
+            <div class="entourage-panel-inner">
+              <div class="entourage-group-grid">
+                <div>
+                  <h3 class="entourage-role small">Parents of the Groom</h3>
+                  <ul class="entourage-names">
+                    <li>Mr. Sonny Limpin Sr.</li>
+                    <li>Mrs. Amy Limpin</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 class="entourage-role small">Parents of the Bride</h3>
+                  <ul class="entourage-names">
+                    <li>Mr. Manolito Macatangay</li>
+                    <li>Mrs. Lina Macatangay</li>
+                    <li>(Deceased)</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="entourage-group-grid single entourage-sponsors">
+                <div>
+                  <h3 class="entourage-role small">Principal Sponsors</h3>
+                  <ul class="sponsor-columns">
+                    <li>Mr. Andrew George Taylor</li>
+                    <li>Mrs. Kimberly Taylor</li>
+                    <li>Mr. Joel Paguila</li>
+                    <li>Mrs. Gentle Paguila</li>
+                    <li>Mr. JT Cena</li>
+                    <li>Mrs. Krizel Cena</li>
+                    <li>Mr. Ricardo Culla</li>
+                    <li>Mrs. Maria Belen Culla</li>
+                    <li>PLTCOL Christopher Mercado</li>
+                    <li>Mrs. Nomie Mercado</li>
+                    <li>Engr. Charity Macaraig</li>
+                    <li>Ms. Nancy Amul</li>
+                    <li>Mr. Matias Plaza</li>
+                    <li>Mrs. Jelma Plaza</li>
+                    <li>Mr. Sunny Amul</li>
+                    <li>Mrs. Amy Amul</li>
+                    <li>Mr. Bhoks Albento</li>
+                    <li>Mrs. Marita Albento</li>
+                    <li>Mr. Max Rosales</li>
+                    <li>Mrs. Lea Rosales</li>
+                    <li>Mr. Joel Macaraig</li>
+                    <li>Mrs. Nena Macaraig</li>
+                    <li>Mr. Eserlito Austria</li>
+                    <li>Mrs. Nerissa Maralit</li>
+                    <li>Mr. Harold Fernandez</li>
+                    <li>Mrs. Lady Lourdes Fernandez</li>
+                    <li>Mr. Fernando Macaraig</li>
+                    <li>Mrs. Marilyn Macaraig</li>
+                    <li>Mr. Ariel Amacan</li>
+                    <li>Ms. Emmalyn Padoc</li>
+                    <li>Mr. Mickey Torino</li>
+                    <li>Mrs. Joy Torino</li>
+                    <li>Mr. Jeffrey Macaraig</li>
+                    <li>Mrs. Mary Jean Macaraig</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="entourage-item">
+          <button class="entourage-trigger" type="button" aria-expanded="false" aria-controls="entourage-honor" id="entourage-honor-button">
+            <span>
+              <span class="entourage-trigger-title">Best Man and Maid of Honor</span>
+              <span class="entourage-trigger-subtitle">To assist us in our needs</span>
+            </span>
+            <span class="entourage-icon" aria-hidden="true">+</span>
+          </button>
+
+          <div class="entourage-panel" id="entourage-honor" role="region" aria-labelledby="entourage-honor-button">
+            <div class="entourage-panel-inner">
+              <div class="entourage-group-grid">
+                <div>
+                  <h3 class="entourage-role">Best Man</h3>
+                  <ul class="entourage-names">
+                    <li>Mr. Louie Dave Ojales</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 class="entourage-role">Maid of Honor</h3>
+                  <ul class="entourage-names">
+                    <li>Ms. Dana Mae Culla</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="entourage-item">
+          <button class="entourage-trigger" type="button" aria-expanded="false" aria-controls="entourage-secondary" id="entourage-secondary-button">
+            <span>
+              <span class="entourage-trigger-title">Secondary Sponsors</span>
+              <span class="entourage-trigger-subtitle">Candle, veil, cord, and ceremony sponsors</span>
+            </span>
+            <span class="entourage-icon" aria-hidden="true">+</span>
+          </button>
+
+          <div class="entourage-panel" id="entourage-secondary" role="region" aria-labelledby="entourage-secondary-button">
+            <div class="entourage-panel-inner">
+              <div class="entourage-group-grid">
+                <div>
+                  <h3 class="entourage-role">Candle</h3>
+                  <p class="entourage-purpose">To light our path</p>
+                  <ul class="entourage-names">
+                    <li>Mr. Kenneth Macatangay</li>
+                    <li>Ms. Justinn Capuno</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 class="entourage-role">Veil</h3>
+                  <p class="entourage-purpose">To cloth us as one</p>
+                  <ul class="entourage-names">
+                    <li>Mr. Mc Eulio Dan Macaraig</li>
+                    <li>Ms. Rozen Mae Macaraig</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 class="entourage-role">Cord</h3>
+                  <p class="entourage-purpose">To bind us together</p>
+                  <ul class="entourage-names">
+                    <li>Mr. Neil Figueroa</li>
+                    <li>Ms. Sheila Mae Limpin</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 class="entourage-role small">Secondary Sponsors</h3>
+                  <ul class="sponsor-columns">
+                    <li>Mr. Shervin Mike Limpin</li>
+                    <li>Mr. Johann Cedric Macaraig</li>
+                    <li>Mr. Sydney Yuri Macaraig</li>
+                    <li>Mr. Elbert John Ronatay</li>
+                    <li>Mr. Julhen Macaraig</li>
+                    <li>Mr. Bhoks Albento Jr.</li>
+                    <li>Mr. Ryan Dave Gumayan</li>
+                    <li>Mr. Zaldy Pomarejos</li>
+                    <li>Mr. Gerry Plaza</li>
+                    <li>Mr. Percival Francisco</li>
+                    <li>Ms. Mariann Jen Macaraig</li>
+                    <li>Ms. Jastynn Monica Macaraig</li>
+                    <li>Ms. Hannah Grace Macaraig</li>
+                    <li>Ms. Nica Carla Mascarina</li>
+                    <li>Mrs. Kim Grei Hernandez</li>
+                    <li>Ms. Nikki Mendoza</li>
+                    <li>Ms. Joy Palando</li>
+                    <li>Ms. Ruth Ann Bacaycay</li>
+                    <li>Ms. Darlene Padoc</li>
+                    <li>Ms. Jadelyn Baal</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="entourage-item">
+          <button class="entourage-trigger" type="button" aria-expanded="false" aria-controls="entourage-bearers" id="entourage-bearers-button">
+            <span>
+              <span class="entourage-trigger-title">Ceremonial Bearers and Flower Girls</span>
+              <span class="entourage-trigger-subtitle">Ring, bible, arras, and flowers</span>
+            </span>
+            <span class="entourage-icon" aria-hidden="true">+</span>
+          </button>
+
+          <div class="entourage-panel" id="entourage-bearers" role="region" aria-labelledby="entourage-bearers-button">
+            <div class="entourage-panel-inner">
+              <div class="entourage-group-grid">
+                <div>
+                  <h3 class="entourage-role">Ring Bearer</h3>
+                  <ul class="entourage-names">
+                    <li>Grae Simon Matira</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 class="entourage-role">Bible Bearer</h3>
+                  <ul class="entourage-names">
+                    <li>Shawn Ojales</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 class="entourage-role">Arras Bearer</h3>
+                  <ul class="entourage-names">
+                    <li>John Benedict Padoc</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 class="entourage-role">Flower Girls</h3>
+                  <ul class="entourage-names">
+                    <li>Shanaia Gail Matira</li>
+                    <li>Bernadeth Padoc</li>
+                    <li>Rich Lee Delos Santos</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- DRESS CODE SECTION -->
+  <section class="dress-section" id="dress-code" aria-labelledby="dress-code-title">
+
+    <div class="dress-inner">
+
+      <h2 class="section-title" id="dress-code-title">
+        <span>Dress Code</span>
+      </h2>
+
+      <div class="dress-grid">
+
+        <article class="dress-card">
+          <h3 class="dress-card-title">Principal Sponsors</h3>
+
+          <p class="dress-copy">
+            Gentlemen are requested to wear a <strong>midnight blue or navy blue formal suit</strong> with black tie and pants.
+          </p>
+
+          <p class="dress-copy">
+            Ladies are requested to wear a <strong>champagne gold long gown</strong>.
+          </p>
+
+          <div class="attire-showcase" aria-hidden="true">
+            <img class="sponsor-attire-image" src="assets/principal-sponsor.png" alt="">
+          </div>
+        </article>
+
+        <article class="dress-card">
+          <h3 class="dress-card-title">Guests</h3>
+          <p class="dress-card-subtitle">Semi-Formal Attire</p>
+
+          <p class="dress-copy">
+            We would be delighted to see you dressed in our chosen color palette. Kindly refrain from wearing <strong>white</strong>, as this color is reserved for the bride.
+          </p>
+
+          <div class="palette-wrap" aria-label="Approved wedding color palette">
+            <p class="palette-label">Wedding Colors</p>
+            <div class="palette-row green-row">
+              <span class="palette-swatch swatch-deep-emerald" title="Deep emerald"></span>
+              <span class="palette-swatch swatch-forest" title="Forest green"></span>
+              <span class="palette-swatch swatch-green" title="Green"></span>
+              <span class="palette-swatch swatch-fresh" title="Fresh green"></span>
+              <span class="palette-swatch swatch-mint" title="Mint teal"></span>
+              <span class="palette-swatch swatch-light-green" title="Light green"></span>
+              <span class="palette-swatch swatch-sage" title="Sage"></span>
+            </div>
+            <div class="palette-row blue-row">
+              <span class="palette-swatch swatch-navy" title="Navy blue"></span>
+              <span class="palette-swatch swatch-royal" title="Royal blue"></span>
+              <span class="palette-swatch swatch-sky" title="Sky blue"></span>
+              <span class="palette-swatch swatch-aqua" title="Aqua"></span>
+              <span class="palette-swatch swatch-pale-blue" title="Pale blue"></span>
+              <span class="palette-swatch swatch-powder" title="Powder blue"></span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="dress-reminder">
+        Please keep the look formal, polished, and comfortable enough to celebrate with us throughout the day.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- GIFT GUIDE SECTION -->
+  <section class="gift-section" id="gift-guide" aria-labelledby="gift-guide-title">
+
+    <div class="gift-inner">
+
+      <h2 class="section-title" id="gift-guide-title">
+        <span>Gift Guide</span>
+      </h2>
+
+      <div class="gift-card">
+        <img class="gift-icon" src="assets/gift.png" alt="" aria-hidden="true">
+
+        <h3 class="gift-heading">With Gratitude</h3>
+
+        <p class="gift-message">
+          With all that we have, we have been truly blessed. Your presence, love, prayers, and well-wishes on our special day are the greatest gifts we could ask for.
+        </p>
+
+        <p class="gift-message">
+          Should you still wish to give something, a <strong>monetary gift in an envelope</strong> for our future plans would be received with heartfelt appreciation.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- UNPLUGGED CEREMONY SECTION -->
+  <section class="unplugged-section" id="unplugged" aria-labelledby="unplugged-title">
+
+    <div class="unplugged-inner">
+
+      <h2 class="section-title" id="unplugged-title">
+        <span>Unplugged Ceremony</span>
+      </h2>
+
+      <div class="unplugged-card">
+        <img class="camera-icon" src="assets/no-camera.png" alt="" aria-hidden="true">
+
+        <h3 class="unplugged-heading">Be Fully Present</h3>
+
+        <p class="unplugged-message">
+          We kindly request that our wedding ceremony be <strong>camera-free</strong>. Please keep phones and cameras away during the ceremony so everyone can be fully present with us in the moment.
+        </p>
+
+        <p class="unplugged-message">
+          We have hired professional photographers to beautifully capture the ceremony and all the memories we will treasure.
+        </p>
+
+        <p class="unplugged-note">
+          After the ceremony, you are welcome to take photos and videos during the reception.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SNAP AND SHARE SECTION -->
+  <section class="share-section" id="snap-and-share" aria-labelledby="share-title">
+
+    <div class="share-inner">
+
+      <h2 class="section-title" id="share-title">
+        <span>Snap and Share</span>
+      </h2>
+
+      <div class="share-card">
+        <h3 class="share-heading">Share the Love</h3>
+
+        <p class="share-message">
+          Capture your favorite moments from our celebration and share them using our official wedding hashtag so we can relive the joy with you after the day.
+        </p>
+
+        <p class="hashtag-display" id="wedding-hashtag">#KristelleFoundHerSonny</p>
+
+        <button class="copy-hashtag-btn" type="button" id="copy-hashtag" data-hashtag="#KristelleFoundHerSonny">
+          Copy Hashtag
+        </button>
+
+        <p class="copy-status" id="copy-status" aria-live="polite">Hashtag copied!</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+
+    <div class="gallery-inner">
+
+      <h2 class="section-title" id="gallery-title">
+        <span>Gallery</span>
+      </h2>
+
+      <p class="gallery-note">
+        A few favorite moments from our journey, gathered here with love and gratitude.
+      </p>
+
+      <div class="gallery-carousel" aria-roledescription="carousel" aria-label="Wedding gallery carousel">
+        <div class="gallery-track">
+          <figure class="gallery-slide is-active">
+            <img src="assets/image_ (2).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="eager" decoding="async">
+          </figure>
+
+          <figure class="gallery-slide">
+            <img src="assets/image_ (3).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+          </figure>
+
+          <figure class="gallery-slide">
+            <img src="assets/image_ (4).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+          </figure>
+
+          <figure class="gallery-slide">
+            <img src="assets/image_ (1).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+          </figure>
+
+          <figure class="gallery-slide">
+            <img src="assets/image_ (10).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+          </figure>
+
+          <figure class="gallery-slide">
+            <img src="assets/image_ (13).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+          </figure>
+
+          <figure class="gallery-slide">
+            <img src="assets/image_ (14).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+          </figure>
+
+          <figure class="gallery-slide">
+            <img class="focus-face-top" src="assets/image_ (15).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+          </figure>
+
+          <figure class="gallery-slide">
+            <img src="assets/image_ (21).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+          </figure>
+
+          <figure class="gallery-slide">
+            <img src="assets/image_ (23).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+          </figure>
+
+          <figure class="gallery-slide">
+            <img src="assets/image_ (24).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+          </figure>
+        </div>
+
+        <button class="gallery-control prev" type="button" aria-label="Previous gallery photo">
+          <span aria-hidden="true">&lsaquo;</span>
+        </button>
+
+        <button class="gallery-control next" type="button" aria-label="Next gallery photo">
+          <span aria-hidden="true">&rsaquo;</span>
+        </button>
+      </div>
+
+      <div class="gallery-thumb-grid" aria-label="More wedding gallery photos">
+        <figure class="gallery-thumb landscape-large">
+          <img src="assets/image_ (11).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+        </figure>
+
+        <figure class="gallery-thumb landscape">
+          <img src="assets/image_ (5).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+        </figure>
+
+        <figure class="gallery-thumb landscape">
+          <img src="assets/image_ (9).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+        </figure>
+
+        <figure class="gallery-thumb landscape">
+          <img src="assets/image_ (7).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+        </figure>
+
+        <figure class="gallery-thumb landscape">
+          <img src="assets/image_ (8).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+        </figure>
+
+        <figure class="gallery-thumb landscape-large">
+          <img src="assets/image_ (12).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+        </figure>
+
+        <figure class="gallery-thumb landscape">
+          <img src="assets/image_ (20).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+        </figure>
+
+        <figure class="gallery-thumb landscape-large">
+          <img src="assets/image_ (22).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+        </figure>
+
+        <figure class="gallery-thumb landscape">
+          <img src="assets/image_ (25).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+        </figure>
+
+        <figure class="gallery-thumb landscape">
+          <img src="assets/image_ (17).jpg" alt="Kristelle and Sonny wedding gallery photo" loading="lazy" decoding="async">
+        </figure>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- RSVP SECTION -->
+  <section class="rsvp-section" id="rsvp" aria-labelledby="rsvp-title">
+
+    <div class="rsvp-inner">
+
+      <h2 class="section-title" id="rsvp-title">
+        <span>RSVP</span>
+      </h2>
+
+      <p class="rsvp-note">
+        Kindly confirm your attendance by completing the form below. Your response will help us prepare your reserved seats and celebrate with you smoothly.
+      </p>
+
+      <p class="rsvp-deadline">Please respond on or before September 15, 2026</p>
+
+      <form
+        class="rsvp-form"
+        id="custom-rsvp-form"
+        action="https://docs.google.com/forms/d/e/1FAIpQLSf7iI5R-DkW-KCOIJoixOTnN-01QhZyRaLgCuwqo8Cj8iUXRA/formResponse"
+        method="POST"
+        target="rsvp-hidden-frame"
+      >
+        <label class="rsvp-field">
+          <span class="rsvp-label">Name <span class="rsvp-required">*</span></span>
+          <input class="rsvp-input" type="text" name="entry.422302302" autocomplete="name" required>
+        </label>
+
+        <fieldset class="rsvp-field">
+          <legend class="rsvp-label">Will you attend? <span class="rsvp-required">*</span></legend>
+          <div class="rsvp-options">
+            <label class="rsvp-option">
+              <input type="radio" name="entry.631518926" value="Yes, I will attend" required>
+              <span>Yes, I will attend</span>
+            </label>
+
+            <label class="rsvp-option">
+              <input type="radio" name="entry.631518926" value="No, I cannot attend" required>
+              <span>No, I cannot attend</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <label class="rsvp-field">
+          <span class="rsvp-label">Number of reserved seats <span class="rsvp-required">*</span></span>
+          <input class="rsvp-input" type="number" name="entry.1947766775" min="1" inputmode="numeric" required>
+        </label>
+
+        <label class="rsvp-field">
+          <span class="rsvp-label">Contact number <span class="rsvp-required">*</span></span>
+          <input class="rsvp-input" type="tel" name="entry.709047338" autocomplete="tel" required>
+        </label>
+
+        <label class="rsvp-field">
+          <span class="rsvp-label">Message for the couple</span>
+          <textarea class="rsvp-textarea" name="entry.373005098" rows="4"></textarea>
+        </label>
+
+        <input type="hidden" name="fvv" value="1">
+        <input type="hidden" name="pageHistory" value="0">
+
+        <button class="btn rsvp-submit" type="submit">Submit RSVP</button>
+        <p class="rsvp-submit-status" id="rsvp-submit-status" aria-live="polite">Thank you! Your RSVP has been submitted.</p>
+      </form>
+
+      <iframe class="sr-only" name="rsvp-hidden-frame" title="Hidden RSVP submission frame"></iframe>
+
+      <p class="rsvp-fallback">
+        If submission does not work, you may open the original form in a new tab.
+        <br>
+        <a
+          class="btn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSf7iI5R-DkW-KCOIJoixOTnN-01QhZyRaLgCuwqo8Cj8iUXRA/viewform?usp=dialog"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open RSVP Form
+        </a>
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-kicker">Thank you for celebrating with us</p>
+
+      <h2 class="footer-names">Kristelle and Sonny</h2>
+
+      <p class="footer-date">October 03, 2026</p>
+
+      <p class="footer-message">
+        Your presence, prayers, and love mean so much to us. We cannot wait to share this beautiful day with the people who have made our journey even more meaningful.
+      </p>
+
+      <p class="footer-hashtag">#KristelleFoundHerSonny</p>
+
+      <p class="footer-credit">E-Wedding Invitation<br> made with love</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
